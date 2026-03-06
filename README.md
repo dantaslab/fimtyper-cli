@@ -30,14 +30,27 @@ spack install fimtyper
 conda create -n fimtyper fimtyper-cli -c bioconda -c conda-forge
 ```
 
+### Installation via pip
+
+```shell
+pip install fimtyper-cli
+```
+
 ## Usage
 
 ## Dependencies
 
+## Database
+
+The fimH allele database is derived from the original FimTyper implementation developed by the Center for Genomic Epidemiology.
+
+Database updates will be tracked through repository releases.
+
 ## Roadmap
 
 - Planned Python refactor
-- Consistent database updates
+- Automated database updates
+- Expanded test coverage
 
 ## Citation
 
