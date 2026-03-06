@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: fimtyper-cli
+message: "If you use this CLI implementation, please cite as follows."
+authors:
+  - family-names: Miller
+    given-names: Caelan
+version: 1.0.0
+date-released: 2026
+url: https://github.com/dantaslab/fimtyper-cli

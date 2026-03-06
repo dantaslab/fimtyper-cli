@@ -1,0 +1,64 @@
+# FimTyper CLI (Under Construction)
+
+## Project Status
+
+This repository contains a maintained command-line implementation of FimTyper, originally developed by the Center for Genomic Epidemiology at the Technical University of Denmark.
+
+Original repository (03-10-2022):
+
+<https://bitbucket.org/genomicepidemiology/fimtyper/>
+
+The original software primarily supports a web interface. The CLI component is not actively maintained. This fork restores and modernizes the command-line tool for use in reproducible bioinformatics workflows and package managers.
+
+Major updates in this fork include:
+
+- Restored CLI functionality
+- Packaging support for Spack and Bioconda
+- Improved documentation
+
+## Installation
+
+### Installation via Spack
+
+```shell
+spack install fimtyper
+```
+
+### Installation via bioconda
+
+```shell
+conda create -n fimtyper fimtyper-cli -c bioconda -c conda-forge
+```
+
+## Usage
+
+## Dependencies
+
+## Roadmap
+
+- Planned Python refactor
+- Consistent database updates
+
+## Citation
+
+If you use the fimH typing method implemented in this software, please cite the original publication:
+
+[Roer L et al. 2017. Development of a web tool for Escherichia coli
+subtyping based on fimH alleles. J Clin Microbiol.](https://pubmed.ncbi.nlm.nih.gov/28592545/)
+
+If using this maintained CLI implementation, please also cite this repository:
+
+Miller C. 2026.
+fimtyper-cli. <https://github.com/dantaslab/fimtyper-cli>
+
+## Relationship to the CGE Web Service
+
+This repository is not affiliated with or maintained by the
+Center for Genomic Epidemiology web services.
+
+The official web implementation can be accessed at: <https://cge.cbs.dtu.dk/services/FimTyper/>
+
+## License
+
+This project is distributed under the Apache 2.0 license.
+See the LICENSE file for details
